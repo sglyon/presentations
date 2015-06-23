@@ -1,0 +1,446 @@
+% -*- program: xelatex -*-
+% \documentclass[10pt, compress, handout]{beamer}
+\documentclass[compress,10pt]{beamer}
+\usetheme[usetitleprogressbar]{m}
+
+
+\usepackage{longtable,booktabs}
+\usepackage[scale=2]{ccicons}
+\usepackage{minted}
+\usepackage{caption}
+\usepackage{hyperref} % Used to add links to websites to the pdf
+\definecolor{mLightBrown}{HTML}{EB811B}
+\definecolor{TolColor1}{HTML}{332288}   % dark purple
+\definecolor{TolColor2}{HTML}{6699CC}   % dark blue
+\definecolor{TolColor4}{HTML}{44AA99}   % light green
+\definecolor{TolColor8}{HTML}{661100}   % dark red
+\hypersetup{colorlinks,linkcolor=TolColor8,urlcolor=mLightBrown,citecolor=black}  % From Rick
+% These lines are needed to make table captions work with longtable:
+\makeatletter
+\def\fnum@table{\tablename~\thetable}
+\makeatother
+
+
+
+\usepgfplotslibrary{dateplot}
+\usemintedstyle{trac}
+
+\newcommand{\TODO}[1]{ {\color{magenta} TODO: #1} }
+% fraction with parenthesis around it
+\newcommand{\pfrac}[2]{\ensuremath{ \left( \frac{#1}{#2} \right)}}
+\newcommand{\var}[0]{ \text{Var} }
+\newcommand{\cov}[0]{ \text{Cov} }
+
+
+\title{Julian Economics}
+\author{Spencer Lyon}
+
+\date{\today}
+
+\begin{document}
+
+\begin{frame}[fragile]
+  \titlepage
+\end{frame}
+
+\begin{frame} \frametitle{Outline}
+\tableofcontents[hideallsubsections]
+\end{frame}
+
+\section{Intro}\label{intro}
+
+\begin{frame}{About me}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Personal
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    Economics PhD student at NYU.
+  \item
+    Physics and econ undergrad
+  \item
+    I have a wife and two kids
+  \end{itemize}
+\item
+  Programming
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    Started on Mathematica
+  \item
+    First love was Python
+  \item
+    Dabbled with C, C++, R, Scala, Haskell, MATLAB
+  \item
+    New favorite for many tasks is Julia
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Why I like Julia}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Fast
+\item
+  Functional
+\item
+  Flexible
+\item
+  Clean
+\item
+  Open source
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Julia is \ldots{} fast}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  We've seen the \href{http://julialang.org}{benchmarks}
+\item
+  This matters for economics because problems often have:
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    Many states
+  \item
+    Solving functional equations on state space
+  \item
+    Many algorithms require explicit looping over matrices that
+    represent these functions
+  \item
+    Typical model is stochastic \(\Rightarrow\) requires approximation
+    of expectation \(\Rightarrow\) hard (impossible?) to parallelize
+    \emph{across} iterations
+  \end{itemize}
+\item
+  So, fast iterations are crucial
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Julia is \ldots{} functional}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Proper support of basic functional programming makes code readable and
+  concise:
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    \texttt{do} notation
+  \item
+    \texttt{map}, \texttt{fold(l\textbar{}r)}, \texttt{reduce},
+    \texttt{pmap}, comprehensions, \ldots{}
+  \end{itemize}
+\item
+  ``Litetweight'' types make it natural to have very small types (can be
+  treated like a Dict in python or a list in R, with the additional
+  ability to specify how functions operate on it, even relative to types
+  of neighboring arguments)
+\item
+  Multiple dispatch lets you combine two previous points in unique and
+  powerful ways (e.g.~type-based API -- not kwarg. Example to come)
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Julia is \ldots{} flexible}
+
+\begin{itemize}[<+->]
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Most of the standard library written in Julia itself -- and it is fast
+
+  \begin{itemize}[<+->]
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    Means other code written in Julia has \emph{potential} to perform at
+    the same level as the standard library (if written well)
+  \item
+    Not true of most high level languages (e.g.~Python, R, Matlab) where
+    standard library or core numeric tools written in lower level
+    language
+  \item
+    To achieve standard library performance in those languages you
+    usually need to write routines in C/C++/Fortran and wrap it for use
+    in high-level language
+  \end{itemize}
+\item
+  Can call C, natively with no overhead and no wrappers.
+
+  \begin{itemize}[<+->]
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    Opens door to call
+    \href{http://localhost:8888/notebooks/PyCall.ipynb}{Python}
+    (PyCall.jl), \href{http://localhost:8888/notebooks/rcall.ipynb}{R}
+    (RCall.jl), MATLAB (MATLAB.jl), Java (JavaCall.jl), ect.
+  \item
+    Easily write Julia interface into mature C libraries (LAPACK and
+    BLAS in standard library, NLopt, Sundials, many more\ldots{})
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Julia is \ldots{} clean and open source}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Syntax is powerful and concise
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    Convenient linear algebra syntax (\texttt{A\ *\ B} instead of
+    \texttt{A\ \%*\%\ B} or \texttt{np.dot(A,\ B)})
+  \item
+    Matlab-esque matrix construction
+  \item
+    Minor points, but make the experience better
+  \end{itemize}
+\item
+  Open source
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    Learn how (and sometimes why) standard library functions are
+    implemented
+  \item
+    Gihub issue list or the google group great ways to watch progress
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\section{Quant-Econ}\label{quant-econ}
+
+\begin{frame}{Website}
+
+\begin{quote}
+\href{http://quantecon.org}{QuantEcon} is an organization run by
+economists for economists with the aim of coordinating distributed
+development of high quality open source code for all forms of
+quantitative economic modeling.
+\end{quote}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Two fold:
+
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    \href{http://quant-econ.net}{Website} with over almost 40 teaching
+    modules (textbook chapters) that teach programming and economics
+  \item
+    Code libraries in
+    \href{https://github.com/QuantEcon/QuantEcon.py}{Python} and
+    \href{https://github.com/QuantEcon/QuantEcon.jl}{Julia}
+  \end{enumerate}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Libraries}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Started as teaching tools -- implementations of routines in chapters
+\item
+  Transitioning into performance-oriented set of tools
+\item
+  Julia and Python versions, both first class members
+\item
+  Open source, community developed, on github
+\end{itemize}
+
+\end{frame}
+
+\section{Examples}\label{examples}
+
+\begin{frame}{Playing nicely}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Many potential users may be worried about ``abandoning'' code they
+  have written or rely on from other languages
+\item
+  Julia's ability to naturally call R and Python might alleviate these
+  concerns
+\item
+  NOTE: show RCall and PyCall examples
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Functional Style}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  As mentioned before; Julia's functional style, lightweight types, and
+  multiple dispatch open the door for unique API design opportunities
+\item
+  NOTE: show
+  \href{https://github.com/spencerlyon2/IterationManagers.jl}{IterationManagers}
+  and \href{https://github.com/spencerlyon2/CompEcon.jl}{CompEcon}
+  examples
+\end{itemize}
+
+\end{frame}
+
+\section{Pitfalls}\label{pitfalls}
+
+\begin{frame}{Spaghetti}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Lightweight types and multiple dispatch offer power
+\item
+  \ldots{}sometimes too much power
+\item
+  It is tempting to make a type or new function for every operation
+  ``just in case'' you will dispatch on it in the future
+\item
+  You might end up with complicated spaghetti code composed of many
+  \texttt{type}s of noodles
+\item
+  Personal rule(s) of thumb
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    \textbf{Don't} break out parts of a function if I will only ever
+    call them from one place
+  \item
+    \textbf{Do} break out parts of a function if I can dispatch on them
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Young language}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Community is relatively small (compared to Python, R, MATLAB)
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    Cons
+
+    \begin{itemize}
+    \itemsep1pt\parskip0pt\parsep0pt
+    \item
+      Not many mature learning materials
+    \item
+      Less collective man power writing packages, tutorials, ect.
+    \end{itemize}
+  \item
+    Pros
+
+    \begin{itemize}
+    \itemsep1pt\parskip0pt\parsep0pt
+    \item
+      Interact with ``big'' names (``Hi Stefan!'' :) )
+    \item
+      Opportunity for users to help form community, culture, even the
+      language itself
+    \end{itemize}
+  \end{itemize}
+\item
+  Not to version 1.0 yet
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    (quickly) Moving target to develop against
+  \item
+    Code that ran a few months ago might not run today
+  \item
+    Usually very easy to fix these issues
+  \end{itemize}
+\item
+  Conventions still in flux (docs, testing, style-guide not quite PEP8)
+\item
+  Package ecosystem not as rich as Python or R (or MATLABs toolboxes for
+  specific functionality)
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    But it is growing\ldots{}
+    \href{http://pkg.julialang.org/pulse.html}{fast}
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Convex learning curve}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Easy to learn, hard to master
+\item
+  MATLAB or NumPy users immediately comfortable writing functions and
+  using Arrays
+\item
+  Unlocking full Julia potential requires
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    Learning to think functionally (not traditional OOP, or even
+    procedural)
+  \item
+    Understanding type system (abstract, composite, parametric\ldots{})
+    can be intimidating
+  \item
+    Advanced features like meta-programming are powerful and seductive,
+    but often improperly used
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\section{Final thoughts}\label{final-thoughts}
+
+\begin{frame}{Tips}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  \texttt{@less}, \texttt{@which}, \texttt{JULIA\_EDITOR} +
+  \texttt{@edit}
+\item
+  Get involved - follow mailing list or issue list on github
+\end{itemize}
+
+\end{frame}
+
+\end{document}
