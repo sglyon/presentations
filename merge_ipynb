@@ -1,0 +1,30 @@
+#! /usr/bin/env julia
+
+#=
+Merge multiple ipynb files into a single ipynb.
+
+Usage
+
+```bash
+merge_ipynb output_name in1 in2 in3
+```
+=#
+
+using JSON
+
+ensure_suffix(s::String, suff::String) = endswith(s, suff) ? s : s*suff
+
+const output_name = ensure_suffix(ARGS[2], ".ipynb")
+const nbs = map(x->ensure_suffix(x, ".ipynb"), ARGS[3:])
+const all_json = map(JSON.parsefile, nbs)
+const j1 = all_json[1]
+const all_cells = j1[1]["cells"]
+
+for j in all_json[2:end]
+    push!(all_cells, j["cells"])
+end
+j1["cells"] = all_cells
+
+open(output_name, "w") do f
+    write(f, json(j1))
+end

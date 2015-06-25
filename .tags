@@ -1,0 +1,401 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+re	/Users/sglyon/Research/presentations/fabfile.py	/^import re$/;"	namespace	line:8
+suffixes	/Users/sglyon/Research/presentations/fabfile.py	/^suffixes = [".slides.html",  # ipynb$/;"	variable	line:12
+to_output	/Users/sglyon/Research/presentations/fabfile.py	/^to_output = ["TasteOfJulia\/TasteOfJulia.slides.html",$/;"	variable	line:16
+_camel_to_spaces	/Users/sglyon/Research/presentations/fabfile.py	/^def _camel_to_spaces(s):$/;"	function	line:20
+_get_base_name	/Users/sglyon/Research/presentations/fabfile.py	/^def _get_base_name(n, suffixes=suffixes):$/;"	function	line:25
+write_index	/Users/sglyon/Research/presentations/fabfile.py	/^def write_index(names):$/;"	function	line:30
+McCallModel	/Users/sglyon/Research/presentations/IMFWorkshop/McCall.jl	/^immutable McCallModel <: AbstractModel$/;"	function	line:13
+McCallModel	/Users/sglyon/Research/presentations/IMFWorkshop/McCall.jl	/^    function McCallModel(w::Vector, F::Vector, β::Real, c::Real)$/;"	function	line:21
+bellman_operator	/Users/sglyon/Research/presentations/IMFWorkshop/McCall.jl	/^function bellman_operator(m::McCallModel, v0)$/;"	function	line:27
+init_values	/Users/sglyon/Research/presentations/IMFWorkshop/McCall.jl	/^init_values(m::McCallModel) = fill(mean(m.w)\/(1 - m.β), size(m.w, 1))$/;"	function	line:33
+main	/Users/sglyon/Research/presentations/IMFWorkshop/McCall.jl	/^function main()$/;"	function	line:35
+A simple problem: McCall Search model	/Users/sglyon/Research/presentations/IMFWorkshop/mccall.md	/^## A simple problem: McCall Search model$/;"	function	line:1
+The Model	/Users/sglyon/Research/presentations/IMFWorkshop/mccall.md	/^### The Model$/;"	function	line:6
+McCallModel	/Users/sglyon/Research/presentations/McCall/McCall.jl	/^immutable McCallModel <: AbstractModel$/;"	function	line:13
+McCallModel	/Users/sglyon/Research/presentations/McCall/McCall.jl	/^    function McCallModel(w::Vector, F::Vector, β::Real, c::Real)$/;"	function	line:21
+bellman_operator	/Users/sglyon/Research/presentations/McCall/McCall.jl	/^function bellman_operator(m::McCallModel, v0)$/;"	function	line:27
+init_values	/Users/sglyon/Research/presentations/McCall/McCall.jl	/^init_values(m::McCallModel) = fill(mean(m.w)\/(1 - m.β), size(m.w, 1))$/;"	function	line:33
+main	/Users/sglyon/Research/presentations/McCall/McCall.jl	/^function main()$/;"	function	line:35
+A simple problem: McCall Search model	/Users/sglyon/Research/presentations/McCall/mccall.md	/^## A simple problem: McCall Search model$/;"	function	line:1
+The Model	/Users/sglyon/Research/presentations/McCall/mccall.md	/^### The Model$/;"	function	line:6
+Intro	/Users/sglyon/Research/presentations/NYCjulia/main.tex	/^\\end{frame}$/;"	section	line:48
+Final thoughts	/Users/sglyon/Research/presentations/NYCjulia/main.tex	/^\\end{frame}$/;"	section	line:429
+ul	/Users/sglyon/Research/presentations/output/index.html	/^<ul>$/;"	function	line:1
+li	/Users/sglyon/Research/presentations/output/index.html	/^    <li><a href="Taste of Julia.slides.html">Taste of Julia<\/a><\/li>$/;"	function	line:2
+html	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<html>$/;"	function	line:3
+head	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<head>$/;"	function	line:4
+meta	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<meta charset="utf-8" \/>$/;"	function	line:6
+meta	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<meta http-equiv="X-UA-Compatible" content="chrome=1" \/>$/;"	function	line:7
+meta	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<meta name="apple-mobile-web-app-capable" content="yes" \/>$/;"	function	line:9
+meta	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" \/>$/;"	function	line:10
+title	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<title>Taste of Julia slides<\/title>$/;"	function	line:12
+script	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<script src="https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/require.js\/2.1.10\/require.min.js"><\/script>$/;"	function	line:14
+script	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<script src="https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/jquery\/2.0.3\/jquery.min.js"><\/script>$/;"	function	line:15
+link	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<link rel="stylesheet" href="reveal.js\/css\/reveal.css">$/;"	function	line:18
+link	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<link rel="stylesheet" href="reveal.js\/css\/theme\/simple.css" id="theme">$/;"	function	line:19
+link	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<link rel="stylesheet" href="reveal.js\/lib\/css\/zenburn.css">$/;"	function	line:22
+script	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<script>$/;"	function	line:25
+script	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<script src="reveal.js\/lib\/js\/html5shiv.js"><\/script>$/;"	function	line:37
+link	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<link rel="stylesheet" href="\/\/netdna.bootstrapcdn.com\/font-awesome\/3.2.1\/css\/font-awesome.css">$/;"	function	line:41
+style	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<style type="text\/css">$/;"	function	line:43
+style	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<style type="text\/css">$/;"	function	line:1585
+style	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<style type="text\/css">$/;"	function	line:1651
+link	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<link rel="stylesheet" href="custom.css">$/;"	function	line:1713
+body	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<body>$/;"	function	line:1717
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="reveal">$/;"	function	line:1718
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="slides">$/;"	function	line:1719
+section	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<section>$/;"	function	line:1720
+section	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <section>$/;"	function	line:1721
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing text_cell rendered">$/;"	function	line:1723
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:1724
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:1726
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="text_cell_render border-box-sizing rendered_html">$/;"	function	line:1727
+h	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<h1 id="julia">Julia<\/h1>$/;"	function	line:1728
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing text_cell rendered">$/;"	function	line:1733
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:1734
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:1736
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="text_cell_render border-box-sizing rendered_html">$/;"	function	line:1737
+p	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<p><img src="antigravity_julia.png"\/><\/p>$/;"	function	line:1738
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing text_cell rendered">$/;"	function	line:1744
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:1745
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:1747
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="text_cell_render border-box-sizing rendered_html">$/;"	function	line:1748
+h	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<h4 id="what-is-julia-and-why-should-i-care-what-is-julia-good-at-">What is Julia and why should I care? What is Julia good at?<\/h4>$/;"	function	line:1749
+ul	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<ul>$/;"	function	line:1750
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>An exciting new language made specifically for scientific computing <\/li>$/;"	function	line:1751
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>Interpreted (like Matlab\/Python), but also (JIT-)compiled<\/li>$/;"	function	line:1752
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing text_cell rendered">$/;"	function	line:1758
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:1759
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:1761
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="text_cell_render border-box-sizing rendered_html">$/;"	function	line:1762
+ul	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<ul>$/;"	function	line:1763
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>Easy to learn, write, and maintain, but designed with performance in mind (2-3x C speed)<ul>$/;"	function	line:1764
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>Define functions wherever you want<\/li>$/;"	function	line:1765
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>Functions with optional, keyword, defualt arugments<\/li>$/;"	function	line:1766
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>Organize code in modules\/packages<\/li>$/;"	function	line:1767
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing text_cell rendered">$/;"	function	line:1776
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:1777
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:1779
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="text_cell_render border-box-sizing rendered_html">$/;"	function	line:1780
+ul	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<ul>$/;"	function	line:1781
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>Core concept is multiple dispatch -- specialize function behavior based on types of <em>all<\/em> arguments (more later)<\/li>$/;"	function	line:1782
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>Parallel programming features built into the language - easy and inexpensive scalability (more later)<\/li>$/;"	function	line:1783
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing text_cell rendered">$/;"	function	line:1790
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:1791
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:1793
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="text_cell_render border-box-sizing rendered_html">$/;"	function	line:1794
+ul	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<ul>$/;"	function	line:1795
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>Most of base Julia is written in Julia itself<ul>$/;"	function	line:1796
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>User code is set on &quot;same level&quot; as language and library code<\/li>$/;"	function	line:1797
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>With smart algorithms, will have same performance as the language itself<\/li>$/;"	function	line:1798
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>If you know Julia, you can look at source and see how the language itself is implemented<\/li>$/;"	function	line:1799
+section	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <section>$/;"	function	line:1808
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing text_cell rendered">$/;"	function	line:1810
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:1811
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:1813
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="text_cell_render border-box-sizing rendered_html">$/;"	function	line:1814
+h	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<h2 id="multiple-dispatch">Multiple Dispatch<\/h2>$/;"	function	line:1815
+ul	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<ul>$/;"	function	line:1816
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>Julia has an advanced expressive type system<\/li>$/;"	function	line:1817
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>... but you can only think about it when you want<\/li>$/;"	function	line:1818
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>Functions are applied by matching function name and types of arguments<\/li>$/;"	function	line:1819
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>The most specific match possible is called<\/li>$/;"	function	line:1820
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>Consider a contrived example that demonstrates the concept<\/li>$/;"	function	line:1821
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing code_cell rendered">$/;"	function	line:1827
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="input">$/;"	function	line:1828
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:1829
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:1832
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <div class="input_area">$/;"	function	line:1833
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="highlight"><pre><span class="n">f<\/span><span class="p">(<\/span><span class="n">a<\/span><span class="p">::<\/span><span class="kt">Any<\/span><span class="p">,<\/span> <span class="n">b<\/span><span class="p">)<\/span> <span class="o">=<\/span> <span class="s">&quot;fallback&quot;<\/span>$/;"	function	line:1834
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<span class="n">f<\/span><span class="p">(<\/span><span class="n">a<\/span><span class="p">::<\/span><span class="n">Number<\/span><span class="p">,<\/span> <span class="n">b<\/span><span class="p">::<\/span><span class="n">Number<\/span><span class="p">)<\/span> <span class="o">=<\/span> <span class="s">&quot;a and b are both numbers&quot;<\/span>$/;"	function	line:1835
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<span class="n">f<\/span><span class="p">(<\/span><span class="n">a<\/span><span class="p">::<\/span><span class="n">Number<\/span><span class="p">,<\/span> <span class="n">b<\/span><span class="p">)<\/span> <span class="o">=<\/span> <span class="s">&quot;a is a number&quot;<\/span>$/;"	function	line:1836
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<span class="n">f<\/span><span class="p">(<\/span><span class="n">a<\/span><span class="p">,<\/span> <span class="n">b<\/span><span class="p">::<\/span><span class="n">Number<\/span><span class="p">)<\/span> <span class="o">=<\/span> <span class="s">&quot;b is a number&quot;<\/span>$/;"	function	line:1837
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<span class="n">f<\/span><span class="p">(<\/span><span class="n">a<\/span><span class="p">::<\/span><span class="n">Integer<\/span><span class="p">,<\/span> <span class="n">b<\/span><span class="p">::<\/span><span class="n">Integer<\/span><span class="p">)<\/span> <span class="o">=<\/span> <span class="s">&quot;a and b are both integers&quot;<\/span>$/;"	function	line:1838
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_wrapper">$/;"	function	line:1845
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output">$/;"	function	line:1846
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_area"><div class="prompt output_prompt">$/;"	function	line:1849
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_text output_subarea output_pyout">$/;"	function	line:1853
+pre	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<pre>$/;"	function	line:1854
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing code_cell rendered">$/;"	function	line:1867
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="input">$/;"	function	line:1868
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:1869
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:1872
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <div class="input_area">$/;"	function	line:1873
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="highlight"><pre><span class="n">f<\/span><span class="p">(<\/span><span class="n">randn<\/span><span class="p">(<\/span><span class="mi">4<\/span><span class="p">,<\/span> <span class="mi">4<\/span><span class="p">),<\/span> <span class="s">&quot;foo&quot;<\/span><span class="p">)<\/span>$/;"	function	line:1874
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_wrapper">$/;"	function	line:1881
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output">$/;"	function	line:1882
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_area"><div class="prompt output_prompt">$/;"	function	line:1885
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_text output_subarea output_pyout">$/;"	function	line:1889
+pre	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<pre>$/;"	function	line:1890
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing code_cell rendered">$/;"	function	line:1903
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="input">$/;"	function	line:1904
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:1905
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:1908
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <div class="input_area">$/;"	function	line:1909
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="highlight"><pre><span class="n">f<\/span><span class="p">(<\/span><span class="mi">1<\/span><span class="p">,<\/span> <span class="mf">1.0<\/span><span class="p">)<\/span>$/;"	function	line:1910
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_wrapper">$/;"	function	line:1917
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output">$/;"	function	line:1918
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_area"><div class="prompt output_prompt">$/;"	function	line:1921
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_text output_subarea output_pyout">$/;"	function	line:1925
+pre	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<pre>$/;"	function	line:1926
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing code_cell rendered">$/;"	function	line:1939
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="input">$/;"	function	line:1940
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:1941
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:1944
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <div class="input_area">$/;"	function	line:1945
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="highlight"><pre><span class="n">f<\/span><span class="p">(<\/span><span class="mf">1.0<\/span><span class="p">,<\/span> <span class="s">&quot;foo&quot;<\/span><span class="p">)<\/span>$/;"	function	line:1946
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_wrapper">$/;"	function	line:1953
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output">$/;"	function	line:1954
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_area"><div class="prompt output_prompt">$/;"	function	line:1957
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_text output_subarea output_pyout">$/;"	function	line:1961
+pre	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<pre>$/;"	function	line:1962
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing code_cell rendered">$/;"	function	line:1975
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="input">$/;"	function	line:1976
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:1977
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:1980
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <div class="input_area">$/;"	function	line:1981
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="highlight"><pre><span class="n">f<\/span><span class="p">(<\/span><span class="s">&quot;foo&quot;<\/span><span class="p">,<\/span> <span class="mi">1<\/span><span class="p">)<\/span>$/;"	function	line:1982
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_wrapper">$/;"	function	line:1989
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output">$/;"	function	line:1990
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_area"><div class="prompt output_prompt">$/;"	function	line:1993
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_text output_subarea output_pyout">$/;"	function	line:1997
+pre	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<pre>$/;"	function	line:1998
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing code_cell rendered">$/;"	function	line:2011
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="input">$/;"	function	line:2012
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:2013
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:2016
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <div class="input_area">$/;"	function	line:2017
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="highlight"><pre><span class="n">f<\/span><span class="p">(<\/span><span class="mi">1<\/span><span class="p">,<\/span> <span class="mi">2<\/span><span class="p">)<\/span>$/;"	function	line:2018
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_wrapper">$/;"	function	line:2025
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output">$/;"	function	line:2026
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_area"><div class="prompt output_prompt">$/;"	function	line:2029
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_text output_subarea output_pyout">$/;"	function	line:2033
+pre	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<pre>$/;"	function	line:2034
+section	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <section>$/;"	function	line:2047
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing text_cell rendered">$/;"	function	line:2049
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:2050
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:2052
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="text_cell_render border-box-sizing rendered_html">$/;"	function	line:2053
+h	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<h2 id="parallel-computing">Parallel Computing<\/h2>$/;"	function	line:2054
+ul	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<ul>$/;"	function	line:2055
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>Building blocks for parallel computaiton are built in to the language<ul>$/;"	function	line:2056
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>Ability to programmatically start additional local or remote processes (<code>addprocs<\/code>)<\/li>$/;"	function	line:2057
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>Operate on distributed arrays (<code>DArray<\/code>)<\/li>$/;"	function	line:2058
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>Shared memory arrays for local processes (<code>SharedArray<\/code>)<\/li>$/;"	function	line:2059
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>Parallel <code>for<\/code> loops and <code>map<\/code><\/li>$/;"	function	line:2060
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>Easy and free to install in the cloud (<code>AWS.jl<\/code>, <code>GCloud.jl<\/code>)<\/li>$/;"	function	line:2063
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing text_cell rendered">$/;"	function	line:2069
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:2070
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:2072
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="text_cell_render border-box-sizing rendered_html">$/;"	function	line:2073
+h	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<h3 id="-parallel-for-"><code>@parallel for<\/code><\/h3>$/;"	function	line:2074
+ul	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<ul>$/;"	function	line:2075
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>Suppose we wanted to simulate the number of heads in <code>n<\/code> coinflips<\/li>$/;"	function	line:2076
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>We might write the following function:<\/li>$/;"	function	line:2077
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing code_cell rendered">$/;"	function	line:2083
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="input">$/;"	function	line:2084
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:2085
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:2088
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <div class="input_area">$/;"	function	line:2089
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="highlight"><pre><span class="k">function<\/span><span class="nf"> count_heads<\/span><span class="p">(<\/span><span class="n">n<\/span><span class="p">)<\/span>$/;"	function	line:2090
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <span class="n">c<\/span><span class="p">::<\/span><span class="kt">Int<\/span> <span class="o">=<\/span> <span class="mi">0<\/span>$/;"	function	line:2091
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <span class="k">for<\/span> <span class="n">i<\/span><span class="o">=<\/span><span class="mi">1<\/span><span class="p">:<\/span><span class="n">n<\/span>$/;"	function	line:2092
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^        <span class="n">c<\/span> <span class="o">+=<\/span> <span class="n">randbool<\/span><span class="p">()<\/span>$/;"	function	line:2093
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <span class="k">end<\/span>$/;"	function	line:2094
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <span class="n">c<\/span>$/;"	function	line:2095
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<span class="k">end<\/span>$/;"	function	line:2096
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<span class="n">count_heads<\/span><span class="p">(<\/span><span class="mi">10<\/span><span class="p">)<\/span>  <span class="c"># warm up compiler<\/span>$/;"	function	line:2098
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<span class="p">@<\/span><span class="n">timeit<\/span> <span class="n">count_heads<\/span><span class="p">(<\/span><span class="mi">50000000<\/span><span class="p">)<\/span>  <span class="c"># run timing<\/span>$/;"	function	line:2099
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_wrapper">$/;"	function	line:2106
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output">$/;"	function	line:2107
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_area"><div class="prompt"><\/div>$/;"	function	line:2110
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_subarea output_stream output_stdout output_text">$/;"	function	line:2111
+pre	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<pre>$/;"	function	line:2112
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing text_cell rendered">$/;"	function	line:2125
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:2126
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:2128
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="text_cell_render border-box-sizing rendered_html">$/;"	function	line:2129
+ul	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<ul>$/;"	function	line:2130
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>Now consider the equivalent parallel version of this function:<\/li>$/;"	function	line:2131
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing code_cell rendered">$/;"	function	line:2137
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="input">$/;"	function	line:2138
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:2139
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:2142
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <div class="input_area">$/;"	function	line:2143
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="highlight"><pre><span class="k">function<\/span><span class="nf"> count_heads_par<\/span><span class="p">(<\/span><span class="n">n<\/span><span class="p">)<\/span>$/;"	function	line:2144
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <span class="p">@<\/span><span class="n">parallel<\/span> <span class="p">(<\/span><span class="o">+<\/span><span class="p">)<\/span> <span class="k">for<\/span> <span class="n">i<\/span><span class="o">=<\/span><span class="mi">1<\/span><span class="p">:<\/span><span class="n">n<\/span>$/;"	function	line:2145
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^        <span class="n">int<\/span><span class="p">(<\/span><span class="n">randbool<\/span><span class="p">())<\/span>$/;"	function	line:2146
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <span class="k">end<\/span>$/;"	function	line:2147
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<span class="k">end<\/span>$/;"	function	line:2148
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<span class="n">addprocs<\/span><span class="p">(<\/span><span class="mi">5<\/span><span class="p">)<\/span>  <span class="c"># add five local processes<\/span>$/;"	function	line:2150
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<span class="n">count_heads_par<\/span><span class="p">(<\/span><span class="mi">10<\/span><span class="p">)<\/span>  <span class="c"># warm up compiler<\/span>$/;"	function	line:2151
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<span class="p">@<\/span><span class="n">timeit<\/span> <span class="n">count_heads_par<\/span><span class="p">(<\/span><span class="mi">50000000<\/span><span class="p">)<\/span>  <span class="c"># run timing<\/span>$/;"	function	line:2152
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_wrapper">$/;"	function	line:2159
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output">$/;"	function	line:2160
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_area"><div class="prompt"><\/div>$/;"	function	line:2163
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_subarea output_stream output_stdout output_text">$/;"	function	line:2164
+pre	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<pre>$/;"	function	line:2165
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing text_cell rendered">$/;"	function	line:2178
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:2179
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:2181
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="text_cell_render border-box-sizing rendered_html">$/;"	function	line:2182
+p	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<p>Things to notice:<\/p>$/;"	function	line:2183
+ul	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<ul>$/;"	function	line:2184
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>The parallel version was shorter than the original<\/li>$/;"	function	line:2185
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>Ran more than 4 times faster<\/li>$/;"	function	line:2186
+section	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <section>$/;"	function	line:2193
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing text_cell rendered">$/;"	function	line:2195
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:2196
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:2198
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="text_cell_render border-box-sizing rendered_html">$/;"	function	line:2199
+h	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<h3 id="case-study-solving-models-in-quantecon-jl">Case study: solving models in QuantEcon.jl<\/h3>$/;"	function	line:2200
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing text_cell rendered">$/;"	function	line:2205
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:2206
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:2208
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="text_cell_render border-box-sizing rendered_html">$/;"	function	line:2209
+ul	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<ul>$/;"	function	line:2210
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>The QuantEcon.jl library has a number of classic Macroeconomic models<\/li>$/;"	function	line:2211
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>Most have these common functions defined:<ul>$/;"	function	line:2212
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li><code>bellman_operator<\/code>: perform one iteration of natural operator defined by the Bellman equation<\/li>$/;"	function	line:2213
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li><code>init_values<\/code>: produce initial values for discretized value function<\/li>$/;"	function	line:2214
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>These building blocks suggest a common (if naive) algorithm for solving a model<ul>$/;"	function	line:2217
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>Compute initial guess for value function from <code>init_values<\/code><\/li>$/;"	function	line:2218
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>Iterate on <code>bellman_operator<\/code> until you reach a fixed point<\/li>$/;"	function	line:2219
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>In code this looks like<\/li>$/;"	function	line:2222
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing code_cell rendered">$/;"	function	line:2228
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="input">$/;"	function	line:2229
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:2230
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:2233
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <div class="input_area">$/;"	function	line:2234
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="highlight"><pre><span class="k">function<\/span><span class="nf"> solve_vf<\/span><span class="p">(<\/span><span class="n">m<\/span><span class="p">::<\/span><span class="n">AbstractModel<\/span><span class="p">)<\/span>$/;"	function	line:2235
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <span class="n">init<\/span> <span class="o">=<\/span> <span class="n">init_values<\/span><span class="p">(<\/span><span class="n">m<\/span><span class="p">)<\/span>$/;"	function	line:2236
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <span class="n">f<\/span><span class="p">(<\/span><span class="n">x<\/span><span class="p">)<\/span> <span class="o">=<\/span> <span class="n">bellman_operator<\/span><span class="p">(<\/span><span class="n">m<\/span><span class="p">,<\/span> <span class="n">x<\/span><span class="p">)<\/span>$/;"	function	line:2237
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <span class="k">return<\/span> <span class="n">compute_fixed_point<\/span><span class="p">(<\/span><span class="n">f<\/span><span class="p">,<\/span> <span class="n">init<\/span><span class="p">)<\/span>$/;"	function	line:2238
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<span class="k">end<\/span>$/;"	function	line:2239
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing text_cell rendered">$/;"	function	line:2249
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:2250
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:2252
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="text_cell_render border-box-sizing rendered_html">$/;"	function	line:2253
+ul	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<ul>$/;"	function	line:2254
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li><em>If<\/em> we happen to know a better routine for solving a specific model, we can implement it as a special case<\/li>$/;"	function	line:2255
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing code_cell rendered">$/;"	function	line:2262
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="input">$/;"	function	line:2263
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:2264
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:2267
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <div class="input_area">$/;"	function	line:2268
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="highlight"><pre><span class="p">@<\/span><span class="n">everywhere<\/span> <span class="k">using<\/span> <span class="n">QuantEcon<\/span><span class="p">,<\/span> <span class="n">QuantEcon<\/span><span class="o">.<\/span><span class="n">Models<\/span>$/;"	function	line:2269
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<span class="n">c<\/span> <span class="o">=<\/span> <span class="n">CareerWorkerProblem<\/span><span class="p">()<\/span> <span class="c"># (Neal, 1999)<\/span>$/;"	function	line:2271
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<span class="n">ifp<\/span> <span class="o">=<\/span> <span class="n">ConsumerProblem<\/span><span class="p">()<\/span>   <span class="c"># income fluctuation problem -- many refs<\/span>$/;"	function	line:2272
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<span class="n">jv<\/span> <span class="o">=<\/span> <span class="n">JvWorker<\/span><span class="p">()<\/span>           <span class="c"># (Jovanovic, 1979)<\/span>$/;"	function	line:2273
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<span class="n">odu<\/span> <span class="o">=<\/span> <span class="n">SearchProblem<\/span><span class="p">()<\/span>     <span class="c"># (Ljungqvist and Sargent, 2012)<\/span>$/;"	function	line:2274
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<span class="n">gm<\/span> <span class="o">=<\/span> <span class="n">GrowthModel<\/span><span class="p">()<\/span>        <span class="c"># standard growth model -- many refs<\/span>$/;"	function	line:2275
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<span class="n">models<\/span> <span class="o">=<\/span> <span class="p">[<\/span><span class="n">c<\/span><span class="p">,<\/span> <span class="n">ifp<\/span><span class="p">,<\/span> <span class="n">jv<\/span><span class="p">,<\/span> <span class="n">odu<\/span><span class="p">,<\/span> <span class="n">gm<\/span><span class="p">];<\/span>$/;"	function	line:2277
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing code_cell rendered">$/;"	function	line:2286
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="input">$/;"	function	line:2287
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:2288
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:2291
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <div class="input_area">$/;"	function	line:2292
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="highlight"><pre><span class="k">for<\/span> <span class="n">m<\/span> <span class="k">in<\/span> <span class="n">models<\/span>$/;"	function	line:2293
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <span class="n">println<\/span><span class="p">(@<\/span><span class="n">which<\/span> <span class="n">solve_vf<\/span><span class="p">(<\/span><span class="n">m<\/span><span class="p">))<\/span>$/;"	function	line:2294
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<span class="k">end<\/span>$/;"	function	line:2295
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_wrapper">$/;"	function	line:2302
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output">$/;"	function	line:2303
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_area"><div class="prompt"><\/div>$/;"	function	line:2306
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_subarea output_stream output_stdout output_text">$/;"	function	line:2307
+pre	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<pre>$/;"	function	line:2308
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing code_cell rendered">$/;"	function	line:2325
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="input">$/;"	function	line:2326
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:2327
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:2330
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <div class="input_area">$/;"	function	line:2331
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="highlight"><pre><span class="c"># Run through one iteration of each to warm up compiler<\/span>$/;"	function	line:2332
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<span class="n">map<\/span><span class="p">(<\/span><span class="n">m<\/span> <span class="o">-&gt;<\/span> <span class="n">solve_vf<\/span><span class="p">(<\/span><span class="n">m<\/span><span class="p">,<\/span> <span class="n">verbose<\/span><span class="o">=<\/span><span class="n">false<\/span><span class="p">,<\/span> <span class="n">err_tol<\/span><span class="o">=<\/span><span class="nb">Inf<\/span><span class="p">),<\/span> <span class="n">models<\/span><span class="p">);<\/span>$/;"	function	line:2333
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<span class="c"># solve in serial<\/span>$/;"	function	line:2335
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<span class="p">@<\/span><span class="n">time<\/span> <span class="n">map<\/span><span class="p">(<\/span><span class="n">m<\/span> <span class="o">-&gt;<\/span> <span class="n">solve_vf<\/span><span class="p">(<\/span><span class="n">m<\/span><span class="p">,<\/span> <span class="n">verbose<\/span><span class="o">=<\/span><span class="n">false<\/span><span class="p">,<\/span> <span class="n">max_iter<\/span><span class="o">=<\/span><span class="mi">1000<\/span><span class="p">),<\/span> <span class="n">models<\/span><span class="p">);<\/span>$/;"	function	line:2336
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_wrapper">$/;"	function	line:2343
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output">$/;"	function	line:2344
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_area"><div class="prompt"><\/div>$/;"	function	line:2347
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_subarea output_stream output_stdout output_text">$/;"	function	line:2348
+pre	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<pre>$/;"	function	line:2349
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing code_cell rendered">$/;"	function	line:2362
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="input">$/;"	function	line:2363
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:2364
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:2367
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <div class="input_area">$/;"	function	line:2368
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="highlight"><pre><span class="c"># do the same in parallel<\/span>$/;"	function	line:2369
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<span class="n">pmap<\/span><span class="p">(<\/span><span class="n">m<\/span> <span class="o">-&gt;<\/span> <span class="n">solve_vf<\/span><span class="p">(<\/span><span class="n">m<\/span><span class="p">,<\/span> <span class="n">verbose<\/span><span class="o">=<\/span><span class="n">false<\/span><span class="p">,<\/span> <span class="n">err_tol<\/span><span class="o">=<\/span><span class="nb">Inf<\/span><span class="p">),<\/span> <span class="n">models<\/span><span class="p">);<\/span>$/;"	function	line:2370
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<span class="p">@<\/span><span class="n">time<\/span> <span class="n">pmap<\/span><span class="p">(<\/span><span class="n">m<\/span> <span class="o">-&gt;<\/span> <span class="n">solve_vf<\/span><span class="p">(<\/span><span class="n">m<\/span><span class="p">,<\/span> <span class="n">verbose<\/span><span class="o">=<\/span><span class="n">false<\/span><span class="p">,<\/span> <span class="n">max_iter<\/span><span class="o">=<\/span><span class="mi">1000<\/span><span class="p">),<\/span> <span class="n">models<\/span><span class="p">);<\/span>$/;"	function	line:2371
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_wrapper">$/;"	function	line:2378
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output">$/;"	function	line:2379
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_area"><div class="prompt"><\/div>$/;"	function	line:2382
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_subarea output_stream output_stdout output_text">$/;"	function	line:2383
+pre	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<pre>$/;"	function	line:2384
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing text_cell rendered">$/;"	function	line:2396
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:2397
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:2399
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="text_cell_render border-box-sizing rendered_html">$/;"	function	line:2400
+ul	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<ul>$/;"	function	line:2401
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>Not quite 5 times faster... why?<\/li>$/;"	function	line:2402
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>Some models take longer to solve than others. So some processes finished long before 10 seconds, but had to wait for others<\/li>$/;"	function	line:2403
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing text_cell rendered">$/;"	function	line:2410
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:2411
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:2413
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="text_cell_render border-box-sizing rendered_html">$/;"	function	line:2414
+ul	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<ul>$/;"	function	line:2415
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>Suppose we wanted to solve the Ljungqvist and Sargent search with unknown offer distribution model for agents of various discount factors...<\/li>$/;"	function	line:2416
+li	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<li>Easy!<\/li>$/;"	function	line:2417
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing code_cell rendered">$/;"	function	line:2423
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="input">$/;"	function	line:2424
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:2425
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:2428
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <div class="input_area">$/;"	function	line:2429
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="highlight"><pre><span class="n">odu_mods<\/span> <span class="o">=<\/span> <span class="p">[<\/span><span class="n">SearchProblem<\/span><span class="p">(<\/span><span class="n">bet<\/span><span class="o">=<\/span><span class="n">i<\/span><span class="p">)<\/span> <span class="k">for<\/span> <span class="n">i<\/span> <span class="k">in<\/span> <span class="n">linspace<\/span><span class="p">(<\/span><span class="mf">0.9<\/span><span class="p">,<\/span> <span class="mf">0.99<\/span><span class="p">,<\/span> <span class="mi">500<\/span><span class="p">)];<\/span>$/;"	function	line:2430
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<span class="p">@<\/span><span class="n">time<\/span> <span class="n">results<\/span> <span class="o">=<\/span> <span class="n">pmap<\/span><span class="p">(<\/span><span class="n">m<\/span> <span class="o">-&gt;<\/span> <span class="n">solve_vf<\/span><span class="p">(<\/span><span class="n">m<\/span><span class="p">,<\/span> <span class="n">verbose<\/span><span class="o">=<\/span><span class="n">false<\/span><span class="p">,<\/span> <span class="n">max_iter<\/span><span class="o">=<\/span><span class="mi">1000<\/span><span class="p">),<\/span> <span class="n">odu_mods<\/span><span class="p">);<\/span>$/;"	function	line:2431
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_wrapper">$/;"	function	line:2438
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output">$/;"	function	line:2439
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_area"><div class="prompt"><\/div>$/;"	function	line:2442
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_subarea output_stream output_stdout output_text">$/;"	function	line:2443
+pre	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<pre>$/;"	function	line:2444
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="cell border-box-sizing code_cell rendered">$/;"	function	line:2457
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="input">$/;"	function	line:2458
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="prompt input_prompt">$/;"	function	line:2459
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="inner_cell">$/;"	function	line:2462
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <div class="input_area">$/;"	function	line:2463
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="highlight"><pre><span class="k">using<\/span> <span class="n">PyPlot<\/span>$/;"	function	line:2464
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<span class="k">function<\/span><span class="nf"> plot_results<\/span><span class="p">(<\/span><span class="n">results<\/span><span class="p">,<\/span> <span class="n">odu_mods<\/span><span class="p">,<\/span> <span class="n">n<\/span><span class="o">=<\/span><span class="mi">5<\/span><span class="p">)<\/span>$/;"	function	line:2466
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <span class="n">n_res<\/span> <span class="o">=<\/span> <span class="n">size<\/span><span class="p">(<\/span><span class="n">results<\/span><span class="p">,<\/span> <span class="mi">1<\/span><span class="p">)<\/span>$/;"	function	line:2467
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <span class="n">inds<\/span> <span class="o">=<\/span> <span class="n">int<\/span><span class="p">(<\/span><span class="n">linspace<\/span><span class="p">(<\/span><span class="mi">1<\/span><span class="p">,<\/span> <span class="n">n_res<\/span><span class="p">,<\/span> <span class="n">n<\/span><span class="p">))<\/span>$/;"	function	line:2468
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <span class="n">fig<\/span><span class="p">,<\/span> <span class="n">ax<\/span> <span class="o">=<\/span> <span class="n">subplots<\/span><span class="p">()<\/span>$/;"	function	line:2469
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <span class="k">for<\/span> <span class="n">i<\/span> <span class="k">in<\/span> <span class="n">inds<\/span>$/;"	function	line:2470
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^        <span class="n">mod<\/span> <span class="o">=<\/span> <span class="n">odu_mods<\/span><span class="p">[<\/span><span class="n">i<\/span><span class="p">]<\/span>$/;"	function	line:2471
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^        <span class="n">bet<\/span> <span class="o">=<\/span> <span class="n">round<\/span><span class="p">(<\/span><span class="n">mod<\/span><span class="o">.<\/span><span class="n">bet<\/span><span class="p">,<\/span> <span class="mi">2<\/span><span class="p">)<\/span>$/;"	function	line:2472
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^        <span class="n">pi_grid<\/span> <span class="o">=<\/span> <span class="n">mod<\/span><span class="o">.<\/span><span class="n">pi_grid<\/span>$/;"	function	line:2473
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^        <span class="n">ax<\/span><span class="p">[:<\/span><span class="n">plot<\/span><span class="p">](<\/span><span class="n">pi_grid<\/span><span class="p">,<\/span> <span class="n">results<\/span><span class="p">[<\/span><span class="n">i<\/span><span class="p">],<\/span> <span class="n">label<\/span><span class="o">=<\/span><span class="s">L&quot;<\/span><span class="si">$<\/span><span class="s">\\beta=<\/span><span class="si">$<\/span><span class="s">&quot;<\/span><span class="o">*<\/span><span class="s">&quot;<\/span><span class="si">$<\/span><span class="s">bet&quot;<\/span><span class="p">)<\/span>$/;"	function	line:2474
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <span class="k">end<\/span>$/;"	function	line:2475
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <span class="n">ax<\/span><span class="p">[:<\/span><span class="n">set_xlabel<\/span><span class="p">](<\/span><span class="s">L&quot;Probabililty of &#39;bad&#39; model (<\/span><span class="si">$<\/span><span class="s">\\pi<\/span><span class="si">$<\/span><span class="s">)&quot;<\/span><span class="p">)<\/span>$/;"	function	line:2476
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <span class="n">ax<\/span><span class="p">[:<\/span><span class="n">set_ylabel<\/span><span class="p">](<\/span><span class="s">L&quot;Reservation wage (<\/span><span class="si">$<\/span><span class="s">\\bar{w}<\/span><span class="si">$<\/span><span class="s">)&quot;<\/span><span class="p">)<\/span>$/;"	function	line:2477
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <span class="n">ax<\/span><span class="p">[:<\/span><span class="n">legend<\/span><span class="p">]()<\/span>$/;"	function	line:2478
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <span class="n">nothing<\/span>$/;"	function	line:2479
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<span class="k">end<\/span>$/;"	function	line:2480
+span	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<span class="n">plot_results<\/span><span class="p">(<\/span><span class="n">results<\/span><span class="p">,<\/span> <span class="n">odu_mods<\/span><span class="p">);<\/span>$/;"	function	line:2482
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_wrapper">$/;"	function	line:2489
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output">$/;"	function	line:2490
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_area"><div class="prompt"><\/div>$/;"	function	line:2493
+div	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<div class="output_png output_subarea ">$/;"	function	line:2496
+script	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<script src="reveal.js\/lib\/js\/head.min.js"><\/script>$/;"	function	line:2512
+script	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<script src="reveal.js\/js\/reveal.js"><\/script>$/;"	function	line:2514
+script	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<script>$/;"	function	line:2516
+script	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <script src="https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS_HTML"><\/script>$/;"	function	line:2538
+script	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^    <script type="text\/x-mathjax-config">$/;"	function	line:2540
+script	/Users/sglyon/Research/presentations/TasteOfJulia/TasteOfJulia.slides.html	/^<script>$/;"	function	line:2559
+Overall structure	/Users/sglyon/Research/presentations/juliacon2015/brainstorm.md	/^# Overall structure$/;"	function	line:1
+Potential examples	/Users/sglyon/Research/presentations/juliacon2015/brainstorm.md	/^## Potential examples$/;"	function	line:33
+Adding McCall (or other from Gianluca?)	/Users/sglyon/Research/presentations/juliacon2015/brainstorm.md	/^### Adding McCall (or other from Gianluca?)$/;"	function	line:35
+CompEcon	/Users/sglyon/Research/presentations/juliacon2015/brainstorm.md	/^### CompEcon$/;"	function	line:49
+MomentBasedEstimators	/Users/sglyon/Research/presentations/juliacon2015/brainstorm.md	/^### MomentBasedEstimators$/;"	function	line:65

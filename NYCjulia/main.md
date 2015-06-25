@@ -70,7 +70,7 @@ listings: true
     - Minor points, but make the experience better
 - Open source
     + Learn how (and sometimes why) standard library functions are implemented
-    + Gihub issue list or the google group great ways to watch progress
+    + Github issue list or the google group great ways to watch progress
 
 # Quant-Econ
 
@@ -148,4 +148,3 @@ listings: true
 
 - `@less`, `@which`, `JULIA_EDITOR` + `@edit`
 - Get involved - follow mailing list or issue list on github
-
